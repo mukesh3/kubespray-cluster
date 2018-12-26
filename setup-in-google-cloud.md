@@ -98,7 +98,8 @@ run ssh-keygen and upload public key to gcp at project level
 
 * /usr/local/bin is not added in root path, so it can be added in .bashrc of root:</br>
     export PATH=/usr/local/bin:$PATH
-
+* For removing the installation, run reset playbook from ansible instance</br>
+``` $ansible-playbook -b -i  inventory/mycluster/hosts.ini reset.yml ```
 
   
 
