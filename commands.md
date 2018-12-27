@@ -1,3 +1,4 @@
+```
 $ kubectl get cs
 $ kubectl cluster-info
 $ kubectl get nodes
@@ -22,3 +23,5 @@ command: Specifies the operation that you want to perform on one or more resourc
 TYPE: Specifies the resource type. Resource types are case-sensitive and you can specify the singular, plural, or abbreviated forms. 
 NAME: Specifies the name of the resource. Names are case-sensitive. If the name is omitted, details for all resources are displayed. 
 flags: Specifies optional flags. 
+
+```
