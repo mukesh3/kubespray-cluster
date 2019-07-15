@@ -1,4 +1,4 @@
-# Installation of kubeproxy in Google Cloud Platform
+# Installation of k8s in Google Cloud Platform
 * Run below command to create the google cloud instances
 gcloud compute instances create ansible master-kubernetes node1 --image=centos-7
 * Generate key-pair to ssh to all three instances.
@@ -35,7 +35,7 @@ run ssh-keygen and upload public key to gcp at project level
 * Install netaddr
   $ sudo pip install netaddr
   
-* Download kubeproxy package from github(https://github.com/kubernetes-incubator/kubespray/tags)
+* Download kubespray package from github(https://github.com/kubernetes-incubator/kubespray/tags)
   Latest version: https://github.com/kubernetes-sigs/kubespray/archive/v2.8.1.tar.gz</br>
   Run command:
 ```
